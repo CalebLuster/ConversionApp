@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Temperature Conversions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celsius" />
+
+    <EditText
+        android:id="@+id/inputCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Celsius" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fahrenheit" />
+
+    <EditText
+        android:id="@+id/inputFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Fahrenheit" />
+
+    <!-- Length Conversions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inches" />
+
+    <EditText
+        android:id="@+id/inputInches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Inches" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feet" />
+
+    <EditText
+        android:id="@+id/inputFeet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Feet" />
+
+    <!-- Weight Conversions -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pounds" />
+
+    <EditText
+        android:id="@+id/inputPounds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Enter Pounds" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kilograms" />
+
+    <EditText
+        android:id="@+id/inputKilograms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Kilograms"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
